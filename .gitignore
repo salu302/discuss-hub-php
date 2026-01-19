@@ -1,0 +1,21 @@
+# Ignore Composer dependencies (if you use them)
+/vendor/
+composer.phar
+
+# Ignore your database configuration (Protects your passwords!)
+config.php
+db_connect.php
+.env
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE settings (VS Code, PHPStorm, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
